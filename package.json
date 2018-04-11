@@ -1,0 +1,33 @@
+{
+  "name": "PhuiScrums",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "native-base": "^2.4.1",
+    "react": "16.3.0-alpha.1",
+    "react-native": "0.54.4",
+    "react-native-communications": "^2.2.1",
+    "react-native-hr-component": "^1.0.6",
+    "react-native-hr-plus": "^1.0.6",
+    "react-native-snap-carousel": "^3.6.0",
+    "react-navigation": "^1.5.9",
+    "react-navigation-redux-helpers": "^1.0.3",
+    "react-navigation-tabs": "^0.1.0-alpha.6",
+    "react-redux": "^5.0.7",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-jest": "22.4.3",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "22.4.3",
+    "react-test-renderer": "16.3.0-alpha.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
